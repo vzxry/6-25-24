@@ -1,0 +1,17 @@
+#p1{font-size:30px;color:white}
+#p2{font-size:30px;color:white}
+#p3{font-size:30px;color:white}
+#p4{font-size:30px;color:white}
+#p5{font-size:30px;color:white}
+button{
+  height: 100px;
+width: 200px
+}
+button{background-color:	#89CFF0;
+color:	#5D3FD3;
+font-size:30px;
+ border-radius:30px;
+ border-color:black;
+ border-width:10px
+}
+body{background-color:	#71797E}
