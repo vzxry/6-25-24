@@ -7,36 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="p1">which of the four is not one of the topics we have learned during this month</p>
-<button id="wrong1">html</button>
-<button id="wrong1">Java script</button>
-<button id="correct1">cheese burger</button>
-<button id="wrong1">css</button>
+   <div
 
-<p id="p2">Which sport does invole swimming</p>
-<button id="wrong2">track & field</button>
-<button id="corrrect2">water polo</button>
-<button id="wrong2">volleyball</button>
-<button id="wrong">basketball</button>
+<div class="questions" id="q1">
+<p id="p1">Which of the four is not one of the topics we have learned during this month</p>
+<button class="answer button" onclick="checkanswer('q1','a')">html</button>
+<button class="answer button" onclick="checkanswer('q1','b')">Java script</button>
+<button class="answer button" onclick="checkanswer('q1','c')">lebron</button>
+<button class="answer button"onclick="checkanswer('q1','d')">css</button>
+</div>
+<div class="questions" id="q2">
+<p id="p2">Which sport does involve swimming</p>
+<button class="answer button"onclick="checkanswer('q2','a')">track & field</button>
+<button class="answer button"onclick="checkanswer('q2','b')">water polo</button>
+<button class="answer button"onclick="checkanswer('q2','c')">volleyball</button>
+<button class="answer button"onclick="checkanswer('q2','d')">basketball</button>
+</div>
+<div class="questions" id="q3">
+<p id="p3">Which of the colors listed is blue</p>
 
-<p id="p3">which of the colors listed is blue</p>
+<button class="answer button"onclick="checkanswer('q3','a')"> blue</button>
+<button class="answer button"onclick="checkanswer('q3','b')">red</button>
+<button class="answer button"onclick="checkanswer('q3','c')">purple</button>
+<button class="answer button"onclick="checkanswer('q3','d')">orange</button>
+</div>
+<div class="questions" id="q4">
 
-<button id="correct3"> blue</button>
-<button id="wrong3">red</button>
-<button id="wrong3">purple</button>
-<button id="wrong3">Permanent Geranium Lake</button>
+<p id="p4">Which one of the places listed isnt a basketball player</p>
+<button class="answer button"onclick="checkanswer('q4','a')"> lebron james</button>
+<button class="answer button"onclick="checkanswer('q4','b')">freaky bob</button>
+<button class="answer button"onclick="checkanswer('q4','c')">jayson tatum</button>
+<button class="answer button"onclick="checkanswer('q4','d')">josh giddey</button>
+</div>
 
-<p id="p4">which one of the places listed isnt a basketball player</p>
-<button id="wrong4"> lebron james</button>
-<button id="correct4">freaky bob</button>
-<button id="wrong4">jayson tatum</button>
-<button id="wrong4">josh giddey</button>
-
-<p id="p5">which country isnt in asia</p>
-<button id="wrong5"> korea</button>
-<button id="wrong5"> japan</button>
-<button id="wrong5">russia</button>
-<button id=correct5>over there</button>
+<div class="questions" id="q5">
+<p id="p5">Which country isnt in asia</p>
+<button class="answer button" onclick="checkanswer('q5','a')"> korea</button>
+<button class="answer button" onclick="checkanswer('q5','b')"> japan</button>
+<button class="answer button" onclick="checkanswer('q5','c')">russia</button>
+<button class="answer button" onclick="checkanswer('q5','d')">france</button>
+</div>
+<button id="submit" onclick="showResults()">submit quiz</button>
+<div id="results"></div>
+</div>
 
 </body>
 </html>
